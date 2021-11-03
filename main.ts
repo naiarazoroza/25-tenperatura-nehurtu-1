@@ -2,6 +2,6 @@ let temperatura = 0
 basic.forever(function () {
     if (true) {
         temperatura = temperatura
-        basic.showNumber(input.temperature() - 4)
+        basic.showNumber(input.temperature())
     }
 })
